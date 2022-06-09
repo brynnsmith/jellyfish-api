@@ -1,0 +1,46 @@
+/******* CLEAR FIX HACK *******/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******* Box Model Hack *******/
+
+ * {
+     box-sizing: border-box;
+}
+
+/******* BASE STYLES *******/
+
+body {
+    background: #000e1d;
+    display: flex;
+    flex-flow: column;
+}
+
+.menuSection {
+    background: #ffffff21;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.jellyReturn {
+    display: flex;
+}
+
+.jellyCard {
+    display: flex;
+    flex-flow: column;
+    background: #000000;
+    color: #ffffff;
+}
