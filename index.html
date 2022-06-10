@@ -5,43 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jellyfish</title>
-    <link rel="stylesheet" href="public/style.css">
-    <link rel="stylesheet" href="public/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
     <section class="menuSection">
         <h1>Jellyfish</h1>
         <p>Paragraph that talks about Jellyfish.</p>
-        <button>Random Jellyfish</button>
+        // <button>Random Jellyfish</button>
         <button>View All Jellyfish</button>
 
         <h2>Choose a type of Jellyfish</h2>
         <fieldset>
-            <form>
+            <form class="jellyForm">
                 <label for= "jellyfish-type">Jellyfish Species</label>
                     <select id= "jellyfishType" name= "jellyfish-type">
-                        <option value="lions-mane">Lion's Mane Jellyfish</option>
+                        <option value="lionsmane">Lion's Mane Jellyfish</option>
                     </select>
-                <button type= "submit" name="submit">Submit</button>
+                <button class="submit" name="btnSubmit">Submit</button>
             </form>
         </fieldset>
     </section>
     <section class= "jellyReturn">
         <section class= "jellyCard">
-            <img src="" alt="image of jellyfish">
-            <h2 class="jellyName">Jelly Name</h2>
-            <p class="jellyDesc">Description of jellyfish.</p>
+            <img src="" alt="image of jellyfish" class="jellyImg">
+            <h2 class="jellyName"></h2>
+            <p class="jellyDesc"></p>
             <h3>Location:</h3>
             <span class="jellyLocation"></span>
             <h3>How to Identify:</h3>
-            <span class="jellyLocation"></span>
-            <h3>Venomous?</h3>
-            <span class="jellyVenom"></span>
+            <span class="jellyIdentify"></span>
+            <h3>Fun Fact:</h3>
+            <span class="jellyFact1"></span>
         </section>
         <section>
 
         </section>
     </section>
-    <script src="/public/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

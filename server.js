@@ -5,8 +5,8 @@ const PORT = 8000;
 
 app.use(cors());
 
-app.use(express.json())
-// app.listen(express.static('public'))
+app.use(express.json());
+app.use(express.static('public'));
 
 const jellyfish = {
     'lionsmane' : {
@@ -23,7 +23,7 @@ const jellyfish = {
         'url' : 'https://critterfacts.com/wp-content/uploads/2020/06/Raising-Baby-Moon-Jellies.jpg',
         'location' : 'Coastal waters, particularly those of North America and Europe',
         'howToIdentify' : 'A round, dome-shaped jelly, translucent with four purple circular markings around the centre. You can usually see these jellyfish floating just below the surface of the water.',
-        'fact1' : 'Scientists believe that moon jellies and other jellies thrive in areas that are particularly affected by human activity. Overfishing, ocean warming, and pollution are all factors that reduce moon jellies’ predators and competitors and increase their prey. These results provide a more favorable environment for this species. As people continue to increase our ocean activities, the Moon Jelly may become one of the more successful species in the open ocean.'
+        'fact1' : 'Scientists believe that moon jellies and other jellies thrive in areas that are particularly affected by human activity. Overfishing, ocean warming, and pollution are all factors that reduce moon jellies\' predators and competitors and increase their prey. These results provide a more favorable environment for this species. As people continue to increase our ocean activities, the Moon Jelly may become one of the more successful species in the open ocean.'
     }, 
     'crystaljelly' : {
         'name' : 'Crystal Jelly',
@@ -43,7 +43,7 @@ const jellyfish = {
     },
     'box' : {
         'name' : 'Box Jellyfish',
-        'desc' : 'Box jellies are highly advanced among jellyfish. They have developed the ability to move rather than just drift, jetting at up to four knots through the water. They also have eyes grouped in clusters of six on the four sides of their bell. Each cluster includes a pair of eyes with a sophisticated lens, retina, iris and cornea, although without a central nervous system, scientists aren’t sure how they process what they see.',
+        'desc' : 'Box jellies are highly advanced among jellyfish. They have developed the ability to move rather than just drift, jetting at up to four knots through the water. They also have eyes grouped in clusters of six on the four sides of their bell. Each cluster includes a pair of eyes with a sophisticated lens, retina, iris and cornea, although without a central nervous system, scientists aren\'t sure how they process what they see.',
         'url' : 'https://www.science.org/do/10.1126/science.aax8721/full/jelly_16x9.jpg',
         'location' : 'Coastal waters,  Northern Australia and throughout the Indo-Pacific',
         'howToIdentify' : 'They are pale blue and transparent in color and get their name from the cube-like shape of their bell. Up to 15 tentacles grow from each corner of the bell and can reach 10 feet in length. Each tentacle has about 5,000 stinging cells, which are triggered not by touch but by the presence of a chemical on the outer layer of its prey.',
@@ -60,7 +60,15 @@ const jellyfish = {
     'jellyfish' : {
         'name' : '',
         'desc' : '',
-        'url' : 'https://www.calacademy.org/sites/default/files/styles/manual_crop_standard_960x540/public/uploads/1207/images?itok=byp4VX_N&c=fc8e4917f431857cbe59734aabb13533',
+        'url' : '',
+        'location' : '',
+        'howToIdentify' : '',
+        'fact1' : ''
+    }, 
+    'jellyfish' : {
+        'name' : '',
+        'desc' : '',
+        'url' : '',
         'location' : '',
         'howToIdentify' : '',
         'fact1' : 'Jellyfish are 95% water and have no brain, blood or heart.'

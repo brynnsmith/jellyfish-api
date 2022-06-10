@@ -41,6 +41,5 @@ body {
 .jellyCard {
     display: flex;
     flex-flow: column;
-    background: #000000;
     color: #ffffff;
 }
