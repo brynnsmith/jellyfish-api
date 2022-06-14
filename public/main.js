@@ -12,6 +12,7 @@ async function getJelly() {
         console.log(data)
 
         document.querySelector('.jellyImg').src = data.url
+        document.querySelector('.jellyVid').src = data.video
         document.querySelector('.jellyName').innerText = data.name
         document.querySelector('.jellyDesc').innerText = data.desc
         document.querySelector('.jellyLocation').innerText = data.location

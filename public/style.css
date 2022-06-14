@@ -22,16 +22,16 @@
 /******* BASE STYLES *******/
 
 body {
-    background: #000e1d;
+    background: #001a33;
     display: flex;
     flex-flow: column;
+    font-family: 'interstate', sans-serif; 
 }
 
 .menuSection {
-    background: #ffffff21;
-    border: 1px solid white;
-    border-radius: 10px;
+    background: #000e1d;
     width: 100%;
+    color: white;
 }
 
 .jellyReturn {
@@ -41,5 +41,43 @@ body {
 .jellyCard {
     display: flex;
     flex-flow: column;
-    color: #ffffff;
+    color: white;
 }
+
+.jellyInfo1, .jellyInfo2 {
+    margin: 0 auto;
+    padding: 10px 35px;
+    
+}
+
+.jellyInfo1 {
+    border-top: 1px solid #6fcaff;
+    border-bottom: 1px solid#6fcaff;
+}
+
+.jellyImg {
+    width:100%;
+    transition: transform 800ms ease;
+    transform:scale(1);
+}
+
+.jellyVidContainer, .jellyImgContainer {
+    padding: 20px 0;
+    background: #000e1d;  
+}
+
+.jellyVid {
+    width: 100%;
+    height: 28vh;
+}
+
+h2, h3 {
+    font-family: 'playfair display', serif; 
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #6fcaff;
+    margin-top: 25px;
+}
+
