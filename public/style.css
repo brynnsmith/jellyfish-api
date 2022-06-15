@@ -28,7 +28,7 @@ body {
     font-family: 'interstate', sans-serif; 
 }
 
-.menuSection {
+.menuSection, footer {
     background: #000e1d;
     width: 100%;
     color: white;
@@ -46,7 +46,7 @@ body {
 
 .jellyInfo1, .jellyInfo2 {
     margin: 0 auto;
-    padding: 10px 35px;
+    padding: 20px 40px 30px 40px;
     
 }
 
@@ -55,29 +55,94 @@ body {
     border-bottom: 1px solid#6fcaff;
 }
 
-.jellyImg {
+.jellyImg, .jellyImg2 {
     width:100%;
-    transition: transform 800ms ease;
-    transform:scale(1);
 }
 
 .jellyVidContainer, .jellyImgContainer {
+    display: flex;
+}
+
+.jellyVidContainer {
+    background: #000e1d;
     padding: 20px 0;
-    background: #000e1d;  
 }
 
 .jellyVid {
-    width: 100%;
+    width: 90%;
     height: 28vh;
+    margin: 0 auto;
 }
+
+
+fieldset {
+    border: none;
+}
+
+
+/******* LAYOUT *******/
+
+footer {
+    padding: 20px 30px 40px 30px;
+    border-top: 1px solid #6fcaff;
+}
+
+/******* TEXT STYLING *******/
 
 h2, h3 {
     font-family: 'playfair display', serif; 
 }
 
-h3 {
-    font-size: 1.3em;
-    color: #6fcaff;
-    margin-top: 25px;
+h2 {
+    font-size: 1.8em;
 }
 
+h3 {
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3, h4 {
+    color: #6fcaff;
+}
+
+h4 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+p {
+    margin-top: -5px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+a {
+    display: block;
+    color: white;
+    line-height: 1.6;
+}
+
+a, footer p {
+    font-size: 0.9em;
+}
+
+footer p {
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+}
+
+footer h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.98em;
+    margin-bottom: 10px;
+}

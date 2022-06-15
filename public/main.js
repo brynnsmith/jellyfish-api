@@ -14,10 +14,13 @@ async function getJelly() {
         document.querySelector('.jellyImg').src = data.url
         document.querySelector('.jellyVid').src = data.video
         document.querySelector('.jellyName').innerText = data.name
+        document.querySelector('.scientificName').innerText = data.scientificName
         document.querySelector('.jellyDesc').innerText = data.desc
         document.querySelector('.jellyLocation').innerText = data.location
         document.querySelector('.jellyIdentify').innerText = data.howToIdentify
+        document.querySelector('.jellyDiameter').innerText = data.diameter
         document.querySelector('.jellyFact1').innerText = data.fact1
+        document.querySelector('.jellyImg2').src = data.url2
 
     } catch(error) {
         console.log(error)
