@@ -23,8 +23,6 @@
 
 body {
     background: #001a33;
-    display: flex;
-    flex-flow: column;
     font-family: 'interstate', sans-serif; 
 }
 
@@ -34,15 +32,10 @@ body {
     color: white;
 }
 
-.jellyReturn {
-    display: flex;
-}
-
 .jellyCard {
-    display: flex;
+    display: none;
     flex-flow: column;
-    color: white;
-}
+    color: white; } 
 
 .jellyInfo1, .jellyInfo2 {
     margin: 0 auto;
@@ -70,7 +63,7 @@ body {
 
 .jellyVid {
     width: 90%;
-    height: 28vh;
+    height: 50vh;
     margin: 0 auto;
 }
 
@@ -131,7 +124,7 @@ a {
 }
 
 a, footer p {
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 footer p {
@@ -146,3 +139,71 @@ footer h4 {
     font-size: 0.98em;
     margin-bottom: 10px;
 }
+
+
+/************ Tablets ************/
+
+/************ Laptops & Desktops ************/
+
+@media (min-width:1280px) { 
+    .jelly {
+        padding: 0 100px;
+    }
+    .jellyCard {
+            display: flex;
+            flex-flow: row wrap;
+         }
+    .jellyImgContainer, .jellyInfo1, .jellyVidContainer, .jellyInfo2 {
+        width: 45%;
+        margin: 2%;
+    } 
+    .jellyImgContainer {
+        width: 45%;
+        height: 460px;
+        background-size: cover;
+        background-position: center;
+    }
+    .jellyImgContainer:last-of-type {
+        display: none;
+    }
+    .jellyVid {
+        height: auto;
+    }
+    .jellyInfo1 {
+        height: 45%;
+        margin: auto 0;
+    }
+    .jellyVidContainer {
+        background: none;
+    }
+
+    .jellyDesktop2 {
+        display: flex;
+    }
+    .jellyImg, .jellyImg2 {
+        display: none;
+    }
+
+    footer {
+        padding: 50px 120px;
+        margin-top: 50px;
+    }
+
+    .footer2 {
+        display: flex;
+    }
+    .footer2 div {
+        width: 50%;
+    }
+
+}
+@media (min-width:1800px) { 
+    .jelly {
+        padding: 0 250px;
+    }
+
+    footer {
+        padding: 50px 250px;
+    }
+}
+
