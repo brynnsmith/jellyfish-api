@@ -152,6 +152,7 @@ footer h4 {
         font-size: 1.1em;
     }
     .jellyCard {
+        display: none;
         flex-flow: row wrap;
     }
     .jellyImgContainer, .jellyInfo1, .jellyVidContainer, .jellyInfo2 {
