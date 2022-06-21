@@ -12,6 +12,7 @@ async function getJelly() {
         const data = await res.json()
         console.log(data)
 
+        document.querySelector('.defaultContent').style.display = "none"
         document.querySelector('.jellyCard').style.display = 'flex'
         document.querySelector('.jellyImgContainer').style.backgroundImage = `url('${data.url}')`
         document.querySelector('.jellyImg').src = data.url

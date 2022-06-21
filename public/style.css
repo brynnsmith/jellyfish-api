@@ -26,16 +26,14 @@ body {
     font-family: 'interstate', sans-serif; 
 }
 
-.menuSection, footer {
-    background: #000e1d;
-    width: 100%;
+.menuSection, footer, .jellyCard {
     color: white;
 }
 
 .jellyCard {
     display: none;
     flex-flow: column;
-    color: white; } 
+} 
 
 .jellyInfo1, .jellyInfo2 {
     margin: 0 auto;
@@ -57,13 +55,13 @@ body {
 }
 
 .jellyVidContainer {
-    background: #000e1d;
     padding: 20px 0;
+    border-bottom: 1px solid#6fcaff;
 }
 
 .jellyVid {
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     margin: 0 auto;
 }
 
@@ -73,21 +71,77 @@ fieldset {
 }
 
 
-/******* LAYOUT *******/
+/******* Layout *******/
+
 header {
-    background: #000e1d;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
+    border-bottom: 1px solid #6fcaff;
+    justify-content: center;
+    text-align: center;
 }
+
+header img {
+    width: 200px;
+    margin-bottom: -30px;
+}
+
+header, .jellyVidContainer, footer {
+    background: #000e1d;
+}
+
+select {
+    background-color: #001a33;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+select, .submit {
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.98em;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #6fcaff;
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 0 5px;
+}
+
+.defaultContent img{
+    width: 100%;
+}
+
+.defaultContent {
+    margin-bottom: -5px;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+}
+
 
 footer {
     padding: 20px 30px 40px 30px;
     border-top: 1px solid #6fcaff;
 }
 
-/******* TEXT STYLING *******/
+/******* Text Styling *******/
 
-h2, h3 {
+h1, h2, h3 {
     font-family: 'playfair display', serif; 
+}
+
+h1 {
+    font-size: 1.3em;
 }
 
 h2 {
@@ -100,7 +154,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-h3, h4 {
+h3, h4, label {
     color: #6fcaff;
 }
 
@@ -147,6 +201,39 @@ footer h4 {
 /************ Laptops & Desktops ************/
 
 @media (min-width:1280px) { 
+    header {
+        margin-bottom: 50px;
+        height: 180px;
+        padding: 10px 100px;
+    }
+    header img {
+        width: 160px;
+        height: 100%;
+        margin-right: -40px;
+    }
+    .menuSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menuSection p {
+        width: 45%;
+        padding: 0 1%;
+        display: inline-block;
+        font-size: 0.9em;
+    }
+    fieldset {
+        margin: 35px 0 0 0;
+        width: 30%;
+        align-self: flex-end;
+    }
+    label {
+        display: inline;
+    }
+    h1 {
+        display: inline-block;
+        margin-top: 30px;
+    }
     .jelly {
         padding: 0 100px;
         font-size: 1.1em;
@@ -190,6 +277,13 @@ footer h4 {
     }
 
 }
+
+@media (min-width: 1645px) {
+    label {
+        display: inline-block;
+    }
+}
+
 @media (min-width:1800px) { 
     .jelly {
         padding: 0 250px;
