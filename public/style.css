@@ -56,7 +56,6 @@ body {
 
 .jellyVidContainer {
     padding: 20px 0;
-    border-bottom: 1px solid#6fcaff;
 }
 
 .jellyVid {
@@ -263,6 +262,7 @@ footer h4 {
     }
     .jellyVidContainer {
         background: none;
+        border-bottom: 1px solid#6fcaff;
     }
     footer {
         padding: 50px 120px;
