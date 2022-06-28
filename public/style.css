@@ -199,10 +199,10 @@ footer h4 {
 
 /************ Laptops & Desktops ************/
 
-@media (min-width:1280px) { 
+@media (min-width:1170px) { 
     header {
         margin-bottom: 50px;
-        height: 180px;
+        height: 150px;
         padding: 10px 100px;
     }
     header img {
@@ -218,7 +218,7 @@ footer h4 {
     .menuSection p {
         width: 45%;
         padding: 0 1%;
-        display: inline-block;
+        display: none;
         font-size: 0.9em;
     }
     fieldset {
@@ -231,7 +231,7 @@ footer h4 {
     }
     h1 {
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .jelly {
         padding: 0 100px;
@@ -262,7 +262,6 @@ footer h4 {
     }
     .jellyVidContainer {
         background: none;
-        border-bottom: 1px solid#6fcaff;
     }
     footer {
         padding: 50px 120px;
@@ -281,6 +280,10 @@ footer h4 {
 @media (min-width: 1645px) {
     label {
         display: inline-block;
+    }
+    .menuSection p {
+        display: none;
+        margin-top: 30px;
     }
 }
 
