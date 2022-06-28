@@ -1,10 +1,10 @@
 <h1>Just Jellyfish</h1>
 
-This working database of Jellyfish types was built with a mobile-first approach as an educational resource in support of our ocean. It features biological and geographical information about each type as well as photos, links to videos and how to identify jellies. There are also call-outs to donate to causes related to protecting our ocean, as well as some links to tips on how we all can help out.
+This working database of Jellyfish types was built with a mobile-first approach as an educational resource in support of our ocean. It features biological and geographical information about each type as well as photos, links to videos and how to identify jellies. There are also call-outs to donate to causes related to protecting our ocean, as well as links to tips on how to help out on an individual level.
 
 Link to project: https://just-jellyfish.herokuapp.com
 
-<img src="https://brynnsmith.com/pulbic_html/images/jellyfish-preview-01.png" alt="image of mobile jellyfish site featuring moon jellies beside desktop version with white spotted jellies">
+<img align= "center" src="https://brynnsmith.com/images/jellyfish-preview-01.png" alt="image of mobile jellyfish site featuring moon jellies beside desktop version with white spotted jellies">
 
 <h2>How It's Made</h2>
 
