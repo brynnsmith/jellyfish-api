@@ -14,7 +14,7 @@ Just jellies started with jellyfish research, content sourcing (more jelly types
 
 <h2>Optimizations</h2>
 
-The next step in this project is going to be building out a page that features every Jelly Type together so the user can sort through a visual list, as well as a more interactive and informative homepage for users to explore.
+The next step in this project is going to be building out a page that features every Jelly Type together so the user can sort through a visual list as cards, as well as a more interactive and informative homepage for users to explore.
 
 <h2>Lessons Learned</h2>
 
