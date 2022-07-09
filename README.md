@@ -18,4 +18,4 @@ The next step in this project is going to be building out a page that features e
 
 <h2>Lessons Learned</h2>
 
-Building with a mobile-first approach greatly changes your content needs as you start to develop larger resolutions. Pairing down the content went more quickly on previous projects when building mobile media queries after initially designing for larger screens. Moving forward with mobile-first builds, I will sketch out mocks for three main resolutions so content can be planned out effectively from the beginning. 
+Building with a mobile-first approach greatly changes your content needs as you start to develop larger resolutions. Pairing down the content went more quickly on previous projects when building mobile media queries after initially designing for larger screens. Moving forward with mobile-first builds, I will sketch out mocks for three main resolutions so content can be planned out effectively from the beginning.
